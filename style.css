@@ -33,7 +33,7 @@ img {
     height: 30vw;
     object-fit: cover;
     object-position: center;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
     /* cursor: pointer; */
 }
 
@@ -55,5 +55,5 @@ img:nth-of-type(-n+3) {
 .photos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
