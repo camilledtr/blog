@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    letter-spacing: 0.2em;
+    padding: 1.3rem 0;
+}
+
+span {
+    padding: 0 1.3rem;
+    border-right: 0.05rem solid black;
+    background: linear-gradient(to right, white 50%, black 50%) left;
+    background-size: 200% 150%;
+    transition: background-position cubic-bezier(0.25, 1, 0.5, 1) 0.5s, padding ease-in-out 0.5s, color ease-in-out 0.3s;
+}
+
+span:hover {
+    padding: 0.6rem;
+    background-position: right;
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    object-position: center;
+    /* cursor: pointer; */
+}
+
+/* img:active {
+    position: absolute;
+    top: 50vh;
+    left: 50vh;
+    transform: scale(1.5);
+} */
+
+#spiral {
+    object-position: top;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
